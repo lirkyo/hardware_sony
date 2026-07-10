@@ -10,6 +10,7 @@ unix_socket_connect(keyprovd, tad, tad)
 
 binder_call(keyprovd, vendor_hal_soter_qti)
 
+allow keyprovd vendor_hal_ifaa_hwservice:hwservice_manager find;
 allow keyprovd vendor_hal_secd_hwservice:hwservice_manager find;
 allow keyprovd vendor_hal_soter_hwservice:hwservice_manager find;
 

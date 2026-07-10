@@ -7,6 +7,7 @@ vendor.semc.hardware.display::IDisplay                            u:object_r:ven
 vendor.semc.hardware.display::IFramerateController                u:object_r:vendor_hal_disp_framerate_hwservice:s0
 vendor.semc.system.idd::IIdd                                      u:object_r:vendor_hal_idd_hwservice:s0
 vendor.somc.hardware.camera.provider::IVendorSomcCameraProvider   u:object_r:hal_camera_hwservice:s0
+vendor.somc.hardware.ifaa::IIFAAManagerService                    u:object_r:vendor_hal_ifaa_hwservice:s0
 vendor.somc.hardware.miscta::IMisctaGlobal                        u:object_r:vendor_hal_miscta_hwservice:s0
 vendor.somc.hardware.nfc::ISomcNfc                                u:object_r:hal_nfc_hwservice:s0
 vendor.somc.hardware.radio::ISomcHook                             u:object_r:somc_hw_radio_hwservice:s0

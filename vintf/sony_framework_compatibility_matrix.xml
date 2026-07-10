@@ -29,6 +29,14 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
+        <name>vendor.nxp.nxpese</name>
+        <version>1.0</version>
+        <interface>
+            <name>INxpEse</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
         <name>vendor.semc.hardware.charger</name>
         <version>1.0-1</version>
         <interface>
@@ -113,6 +121,14 @@
             <name>ISomcHook</name>
             <instance>somchook0</instance>
             <instance>somchook1</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.somc.hardware.ifaa</name>
+        <version>1.0</version>
+        <interface>
+            <name>IIFAAManagerService</name>
+            <instance>default</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
